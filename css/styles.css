@@ -1,182 +1,192 @@
 :root {
-    --m-bcg-col: #fff;
-    --alt-bcg-col: #f5f4fa;
-    --f-bcg-col: #2f303a;
-    --m-col: #212121;
-    --alt-col: #757575;
-    --acc-col: #2196f3;
-    --logo-h-col: #000000;
-    --logo-f-col: #fff;
-    --hero-col: #fff;
-    --btn-alt-col: #fff;
-    --btn-hover-bcg-col: #188ce8;
-    --foot-alph-col: rgba(255, 255, 255, 0.6);
-    --card-bcg-col: #eee;
+  --m-bcg-col: #fff;
+  --alt-bcg-col: #f5f4fa;
+  --f-bcg-col: #2f303a;
+  --m-col: #212121;
+  --alt-col: #757575;
+  --acc-col: #2196f3;
+  --logo-h-col: #000000;
+  --logo-f-col: #fff;
+  --hero-col: #fff;
+  --btn-alt-col: #fff;
+  --btn-hover-bcg-col: #188ce8;
+  --foot-alph-col: rgba(255, 255, 255, 0.6);
+  --card-bcg-col: #eee;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: var(--m-col);
-    background-color: var(--m-bcg-col);
+  background-color: var(--text-white);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--m-col);
+  background-color: var(--m-bcg-col);
+}
+
+.logo .logo-blue {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
 }
 
 .sect-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .hiden-title {
-    display: none;
+  display: none;
 }
 
 /* Header */
 .logo {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
-    text-decoration: none;
-    color: var(--logo-h-col);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  text-decoration: none;
+  color: #212121;
 }
 
 .logo-acc {
-    color: var(--acc-col);
+  color: var(--acc-col);
 }
 
 .list {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .link.head-contacts {
-    color: var(--alt-col);
+  color: var(--alt-col);
 }
 
 .link {
-    text-decoration: none;
-    color: var(--m-col);
+  text-decoration: none;
+  color: var(--m-col);
 }
 
 .link:hover,
 .link:focus,
 .link.foot-item:hover,
 .link.foot-item:focus {
-    color: var(--acc-col);
+  color: var(--acc-col);
 }
 
 .nav-item .link,
 .cont-item .link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /*--- Main index.html zone --- */
 
 /* Hero */
 .hero {
-    color: var(--hero-col);
-    background-color: var(--f-bcg-col);
+  color: var(--hero-col);
+  background-color: var(--f-bcg-col);
 }
 
 .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.35;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-btn {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    color: var(--hero-col);
-    background-color: var(--acc-col);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--hero-col);
+  background-color: var(--acc-col);
 
-    text-align: center;
-    letter-spacing: 0.06em;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: var(--btn-hover-bcg-col);
-    cursor: pointer;
+  background-color: var(--btn-hover-bcg-col);
+  cursor: pointer;
 }
 
 /* Advantges */
 .plus-item {
-    display: block;
+  display: block;
 }
 
 .plus-title {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .plus-text {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--alt-col);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--alt-col);
 }
 
 /* What we do */
 
 /* Staff */
 .staff {
-    background-color: var(--alt-bcg-col);
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
+  background-color: var(--alt-bcg-col);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .staff-item {
-    background-color: var(--m-bcg-col);
+  background-color: var(--m-bcg-col);
 }
 
 .name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .position {
-    color: var(--alt-col);
-    line-height: 1.19;
+  color: var(--alt-col);
+  line-height: 1.19;
 }
 
 /* Footer */
 
 .foot {
-    background-color: var(--f-bcg-col);
+  background-color: var(--f-bcg-col);
 }
 
 .list.adress {
-    font-style: normal;
+  font-style: normal;
 }
 
 .link.foot-item,
 .logo.foot-item {
-    color: var(--logo-f-col);
+  color: var(--logo-f-col);
 }
 
 .list.adress {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .foot-item-cont {
-    color: var(--foot-alph-col);
+  color: var(--foot-alph-col);
 }
 
 /*--- Main portfolio.html zone --- */
@@ -184,37 +194,37 @@ body {
 /* Filter */
 
 .btn-list-item {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    background-color: var(--alt-bcg-col);
-    color: var(--m-col);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--alt-bcg-col);
+  color: var(--m-col);
 }
 
 .btn-list-item:hover,
 .btn-list-item:focus {
-    background-color: var(--acc-col);
-    color: var(--btn-alt-col);
-    cursor: pointer;
+  background-color: var(--acc-col);
+  color: var(--btn-alt-col);
+  cursor: pointer;
 }
 
 /* Examples */
 
 .example-item {
-    background-color: var(--card-bcg-col);
+  background-color: var(--card-bcg-col);
 }
 
 .example-title {
-    font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
 }
 
 .example-type {
-    font-size: 16px;
-    line-height: 1.88;
-    color: var(--alt-col);
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--alt-col);
 }
