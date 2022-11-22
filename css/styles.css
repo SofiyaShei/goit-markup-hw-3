@@ -15,11 +15,12 @@
 }
 
 body {
-  background-color: var(--text-white);
-  color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  color: var(--m-col);
-  background-color: var(--m-bcg-col);
+  letter-spacing: 3%;
+  line-height: 1.71;
+  font-size: 14;
+  color: #212121;
+  background-color: #fff;
 }
 
 .logo .logo-blue {
@@ -52,7 +53,7 @@ body {
 }
 
 .logo-acc {
-  color: var(--acc-col);
+  color: #2196f3;
 }
 
 .list {
@@ -61,19 +62,19 @@ body {
 }
 
 .link.head-contacts {
-  color: var(--alt-col);
+  color: #757575;
 }
 
 .link {
   text-decoration: none;
-  color: var(--m-col);
+  color: #212121;
 }
 
 .link:hover,
 .link:focus,
 .link.foot-item:hover,
 .link.foot-item:focus {
-  color: var(--acc-col);
+  color: #2196f3;
 }
 
 .nav-item .link,
@@ -88,17 +89,18 @@ body {
 
 /* Hero */
 .hero {
-  color: var(--hero-col);
-  background-color: var(--f-bcg-col);
+  color: #fff;
+  background-color: #2f303a;
 }
 
 .hero-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 44px;
   line-height: 1.35;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .hero-btn {
@@ -106,8 +108,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  color: var(--hero-col);
-  background-color: var(--acc-col);
+  color: #fff;
+  background-color: #2196f3;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -115,7 +117,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--btn-hover-bcg-col);
+  background-color: #188ce8;
   cursor: pointer;
 }
 
@@ -135,21 +137,21 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--alt-col);
+  color: #757575;
 }
 
 /* What we do */
 
 /* Staff */
 .staff {
-  background-color: var(--alt-bcg-col);
+  background-color: #f5f4fa;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .staff-item {
-  background-color: var(--m-bcg-col);
+  background-color: #fff;
 }
 
 .name {
@@ -160,14 +162,17 @@ body {
 }
 
 .position {
-  color: var(--alt-col);
+  color: #757575;
   line-height: 1.19;
 }
 
 /* Footer */
 
+.footer {
+  background-color: #2f303a;
+}
 .foot {
-  background-color: var(--f-bcg-col);
+  background-color: #2f303a;
 }
 
 .list.adress {
@@ -176,7 +181,7 @@ body {
 
 .link.foot-item,
 .logo.foot-item {
-  color: var(--logo-f-col);
+  color: #fff;
 }
 
 .list.adress {
@@ -186,13 +191,15 @@ body {
 }
 
 .foot-item-cont {
-  color: var(--foot-alph-col);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*--- Main portfolio.html zone --- */
 
 /* Filter */
-
+.btn-list {
+  list-style: none;
+}
 .btn-list-item {
   font-family: inherit;
   font-weight: 500;
@@ -200,31 +207,31 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--alt-bcg-col);
-  color: var(--m-col);
+  background-color: #f5f4fa;
+  color: #212121;
 }
 
 .btn-list-item:hover,
 .btn-list-item:focus {
-  background-color: var(--acc-col);
-  color: var(--btn-alt-col);
+  background-color: #2196f3;
+  color: #fff;
   cursor: pointer;
 }
 
-/* Examples */
-
-.example-item {
-  background-color: var(--card-bcg-col);
+/* Menu */
+.menu {
+  list-style: none;
 }
-
-.example-title {
+.menu-title {
+  text-decoration: none;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
 }
-
-.example-type {
+.menu-text {
   font-size: 16px;
-  line-height: 1.88;
-  color: var(--alt-col);
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
