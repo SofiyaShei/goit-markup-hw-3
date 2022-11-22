@@ -215,7 +215,6 @@ body {
 .btn-list-item:focus {
   background-color: #2196f3;
   color: #fff;
-  cursor: pointer;
 }
 
 /* Menu */
