@@ -171,29 +171,54 @@ body {
 .footer {
   background-color: #2f303a;
 }
-.foot {
-  background-color: #2f303a;
-}
-
-.list.adress {
-  font-style: normal;
-}
-
-.link.foot-item,
-.logo.foot-item {
-  color: #fff;
-}
-
-.list.adress {
-  font-size: 14px;
-  line-height: 1.7;
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
 }
-
-.foot-item-cont {
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-address:hover,
+.contact-address:focus {
+  color: var(--accent-color);
+}
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
 /*--- Main portfolio.html zone --- */
 
 /* Filter */
@@ -209,6 +234,7 @@ body {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: #212121;
+  cursor: pointer;
 }
 
 .btn-list-item:hover,
