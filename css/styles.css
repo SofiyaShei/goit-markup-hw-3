@@ -22,10 +22,22 @@ body {
   color: #212121;
   background-color: #fff;
 }
-.logo-blue {
-  color: #2196f3 #000000;
+.logo {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--brand-color);
+  text-decoration: none;
 }
 
+.logo-studio-white {
+  color: var(--white-color);
+}
+.logo-studio-black {
+  color: var(--black-color);
+}
 .list {
   list-style: none;
 }
