@@ -15,11 +15,10 @@
 }
 
 body {
-  font-family: "Roboto", "Roboto Regular", "Roboto Bold", "Roboto Medium",
-    "Roboto Black", "Raleway Bold";
-  letter-spacing: 3%;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0, 03em;
   line-height: 1.71;
-  font-size: 14;
+  font-size: 26px;
   color: #212121;
   background-color: #fff;
 }
@@ -44,7 +43,7 @@ body {
 
 /* Header */
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
@@ -62,36 +61,33 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-color);
-  text-decoration: none;
+  color: #212121;
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--accent-color);
+  color: #212121;
 }
 .header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  text-decoration: none;
+  color: #757575;
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-color);
-  text-decoration: none;
+  color: #757575;
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /*--- Main index.html zone --- */
@@ -119,15 +115,14 @@ body {
   line-height: 1.88;
   color: #fff;
   background-color: #2196f3;
-
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
-  cursor: pointer;
 }
 
 /* Advantges */
@@ -204,7 +199,7 @@ body {
 }
 .contact-address:hover,
 .contact-address:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .footer-mail {
   font-size: 14px;
@@ -215,7 +210,7 @@ body {
 }
 .footer-mail:hover,
 .footer-mail:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .footer-tel {
   font-size: 14px;
@@ -226,7 +221,7 @@ body {
 }
 .footer-tel:hover,
 .footer-tel:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 /*--- Main portfolio.html zone --- */
 
