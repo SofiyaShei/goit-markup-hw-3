@@ -75,25 +75,30 @@ body {
   color: var(--background-color);
 }
 .hero-title {
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--solutions-color);
-  background-color: var(--background-color);
+  color: #ffffff;
+  background-color: #2f303a;
 }
 .header-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0, 06em;
-  color: var(--solutions-color);
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
 }
 .header-btn:hover,
 .header-btn:focus {
@@ -122,6 +127,9 @@ body {
 }
 
 /*------About------*/
+.hidden-title {
+  display: none;
+}
 .about-title {
   font-size: 36px;
   line-height: 1.7em;
@@ -136,7 +144,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 .comand-title {
   font-weight: 500;
@@ -144,7 +152,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 .comand-post-title {
   font-weight: 400;
@@ -152,7 +160,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-color);
+  color: var(--primary-color);
 }
 
 /*----Footer------*/
