@@ -7,6 +7,7 @@
   --logo-color: #000000;
   --solutions-color: #ffffff;
   --footer-color: rgba(255, 255, 255, 0.6);
+  --comand-background: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -17,33 +18,41 @@ body {
 .link {
   text-decoration: none;
 }
-
+.hidden-title {
+  display: none;
+}
 /*------Header-------*/
 .header-logo {
   font-family: "Raleway", sans-serif;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   font-size: 26px;
-  color: var(--accent-color);
+  color: var(--logo-color);
   text-decoration: none;
 }
 .logos {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--logo-color);
+  color: var(--accent-color);
   text-decoration: none;
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--primary-color);
   text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-mail {
   font-weight: 500;
@@ -61,7 +70,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--second-color);
   text-decoration: none;
 }
@@ -72,33 +81,27 @@ body {
 
 /*-----Main-----*/
 .hero {
-  color: var(--background-color);
+  background-color: var(--background-color);
 }
 .hero-title {
-  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--bg-color);
 }
 .header-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
   border: none;
-  border-radius: 3px;
 }
 .header-btn:hover,
 .header-btn:focus {
@@ -119,7 +122,6 @@ body {
   list-style: none;
 }
 .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -139,7 +141,11 @@ body {
 }
 
 /*------Comand------*/
+.comand {
+  background-color: var(--comand-background);
+}
 .comand-pre-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -155,7 +161,6 @@ body {
   color: var(--primary-color);
 }
 .comand-post-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -172,14 +177,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--solutions-color);
   text-decoration: none;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--solutions-color);
+  color: var(--accent-color);
   text-decoration: none;
 }
 .contact-adress {
@@ -224,7 +229,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-color);
 }
