@@ -230,6 +230,9 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  text-align: center;
+  border-style: hidden;
+  border-radius: 4px;
   color: var(--primary-color);
 }
 .btn-portfolio {
