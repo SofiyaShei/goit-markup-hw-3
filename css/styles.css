@@ -225,9 +225,11 @@ body {
 .btn-list {
   list-style: none;
 }
-.btn-list {
+.btn-portfolio {
+  background-color: #f5f4fa;
+  font-family: "Roboto";
+  border-radius: 4px;
   font-weight: 500;
-  font-family: "Raleway";
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -237,10 +239,6 @@ body {
   outline: none;
   border-radius: 0.6px;
   color: var(--primary-color);
-}
-.btn-portfolio {
-  background-color: #f5f4fa;
-  border-radius: 4px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
