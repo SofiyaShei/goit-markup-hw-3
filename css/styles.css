@@ -10,6 +10,7 @@ html {
 
 :root {
   --dark-text-color: #212121;
+  --bg-color: #2f303a;
   --medium-text-color: #757575;
   --light-text-color: #ffffff;
   --accent-color: #2196f3;
@@ -19,7 +20,7 @@ html {
 
 body {
   background-color: var(--light-text-color);
-  color: var(--medium-text-color);
+  color: var(--bg-color);
   font-family: var(--main-font);
   letter-spacing: 0.03em;
   margin: 0;
@@ -67,9 +68,6 @@ img {
 }
 
 .page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid #ececec;
 }
 
@@ -191,7 +189,7 @@ img {
 }
 /* .hero.button:hover,
 .hero.button:focus {
-    background-color: #......; Чекаю на скріншот, де в макеті подивитися
+    background-color: #......; 
 } */
 
 .advantages {
@@ -243,6 +241,7 @@ h2 {
 }
 
 .title {
+  line-height: 19px;
   color: var(--dark-text-color);
   margin-bottom: 50px;
   text-align: center;
@@ -267,14 +266,13 @@ h2 {
 }
 
 .team {
-  line-height: 1.19;
   background-color: #f5f4fa;
 }
 
 .team-list {
+  line-height: 1.19;
   display: flex;
   gap: 30px;
-  justify-content: space-between;
 }
 
 .team-member {
@@ -283,14 +281,15 @@ h2 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  max-width: calc((100%-90) / 4);
 }
 
 div.team-member-description {
+  line-height: 1.19;
   padding: 30px 10px;
 }
 
 .team-member-title {
+  line-height: 1.19;
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 10px;
@@ -337,13 +336,13 @@ div.team-member-description {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .portfolio-item-info {
   padding: 20px 24px;
   background-color: var(--light-text-color);
   border: 1px solid #eeeeee;
-  border-top: transparent;
 }
 
 .portfolio p {
@@ -373,6 +372,7 @@ div.team-member-description {
 
 .address-item:not(:nth-last-child(n)) {
   margin-bottom: 9px;
+  gap: 9px;
 }
 
 .map-link {
